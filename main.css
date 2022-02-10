@@ -1,0 +1,14 @@
+/*AMAZON LOGO*/
+.img {
+    justify-content: center;
+}
+
+.form-container {
+    padding: 25px;
+    border: 1px lightslategray;
+    border-radius: 15px;
+}
+
+.btn.btn-primary {
+    background:orange
+}

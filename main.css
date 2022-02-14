@@ -1,14 +1,101 @@
-/*AMAZON LOGO*/
+.logo-box{
+    display:flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
 .img {
     justify-content: center;
 }
 
-.form-container {
-    padding: 25px;
-    border: 1px lightslategray;
+.sign-in-box{
+    background-color:aliceblue;
+    padding: 40px;
+    border:2px solid slategray;
     border-radius: 15px;
+    margin:15px;
+    box-shadow: 3px 3px ;
 }
 
-.btn.btn-primary {
-    background:orange
+.sign-in-header, .emailbox, .password-input, .keep-me-check {
+    background-color: aliceblue;
+    }    
+
+.form-label{
+    background-color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.form-control{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:2px solid lightgrey
+}
+
+.form-check-label{
+    background-color: aliceblue;
+}
+
+.submit-button{
+    justify-content: center;
+    align-items: center;
+}
+#submit-button-style{
+    display:block;
+    width: 85%;
+    border-color: #a88734 #9c7e31 #f0c14b;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+    padding: 12px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor:pointer;
+    box-shadow: 2px 2px;
+    margin-left: 39px;
+    margin-bottom: 14px;
+}
+
+input:hover{
+    box-shadow: 4px rgb(0, 89, 255);   
+}
+
+.agreement{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.new-to{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.create-acct{
+    text-align: center;
+}
+
+#createacctbtn {
+    border-color: #f5f3ee #e9e9e9 #cfcfcf;
+    background: linear-gradient(to bottom, #fcfbf8, #e4e3e1);
+    width:85%;
+    padding:13px;
+    font-size: large;
+    box-shadow: 2px 2px;
+}
+
+button:hover, a:hover {
+    box-shadow: 0 0 10px #2183ec;
+   }
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 35px;
+    text-align: center;
+    gap:20px;
+}
+
+.copyright{
+    text-align: center;
+    margin: 35px;
 }
